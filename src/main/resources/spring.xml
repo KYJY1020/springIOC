@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="student1" class="com.southwind.entity.Student">
+    <property name="id" value="1"></property>
+<!--    <property name="name" value="&lt;zs&gt;"></property>-->
+    <property name="name"  value="张三">
+<!--        <value><![CDATA[<zs>]]></value>-->
+
+    </property>
+    <property name="age" value="22"></property>
+
+</bean>
+<!--    <bean  id="classes1" class="com.southwind.entity.Classes">-->
+<!--        <property name="id" value="1"></property>-->
+<!--        <property name="name" value="java班"></property>-->
+<!--        <property name="students" >-->
+<!--            <list>-->
+<!--                <ref bean="stu"/>-->
+<!--                <ref bean="stu2"/>-->
+<!--                <ref bean="stu3"/>-->
+<!--            </list>-->
+
+<!--        </property>-->
+<!--    </bean>-->
+<!--    <bean id="stu3" class="com.southwind.entity.Student">-->
+<!--    <property name="id" value="3"></property>-->
+<!--    <property name="name" value="王五"></property>-->
+<!--        <property name="age" value="31"></property></bean>-->
+<!--    <bean id="stu2" class="com.southwind.entity.Student">-->
+<!--        <property name="id" value="1"></property>-->
+<!--        <property name="name" value="lisi"></property>-->
+<!--        <property name="age" value="21"></property>-->
+<!--&lt;!&ndash;  <property name="classes" ref="classes1"></property>&ndash;&gt;-->
+
+<!--    </bean>-->
+<!--    <bean id="stu3" class="com.southwind.entity.Student">-->
+<!--        <constructor-arg index="0" value="1"></constructor-arg>-->
+<!--        <constructor-arg index="1" value="王五"></constructor-arg>-->
+<!--        <constructor-arg index="2" value="20"></constructor-arg>-->
+<!--    </bean>-->
+<bean id="user" class="com.southwind.entity.User">
+    <property name="id" value="1"></property>
+    <property name="name" value="zhangsan"></property>
+
+
+</bean>
+
+</beans>
