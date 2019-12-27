@@ -3,16 +3,16 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id="student1" class="com.southwind.entity.Student">
-    <property name="id" value="1"></property>
-<!--    <property name="name" value="&lt;zs&gt;"></property>-->
-    <property name="name"  value="张三">
-<!--        <value><![CDATA[<zs>]]></value>-->
+<!--<bean id="student1" class="com.southwind.entity.Student">-->
+<!--    <property name="id" value="1"></property>-->
+<!--&lt;!&ndash;    <property name="name" value="&lt;zs&gt;"></property>&ndash;&gt;-->
+<!--    <property name="name"  value="张三">-->
+<!--&lt;!&ndash;        <value><![CDATA[<zs>]]></value>&ndash;&gt;-->
 
-    </property>
-    <property name="age" value="22"></property>
+<!--    </property>-->
+<!--    <property name="age" value="22"></property>-->
 
-</bean>
+<!--</bean>-->
 <!--    <bean  id="classes1" class="com.southwind.entity.Classes">-->
 <!--        <property name="id" value="1"></property>-->
 <!--        <property name="name" value="java班"></property>-->
@@ -43,9 +43,14 @@
 <!--    </bean>-->
 <bean id="user" class="com.southwind.entity.User">
     <property name="id" value="1"></property>
-    <property name="name" value="zhangsan"></property>
-
+    <property name="name" value="张三"></property>
+  <property name="age" value="22"></property>
 
 </bean>
+    <bean id="user2" class="com.southwind.entity.User"
+          parent="user">
+        <property name="name" value="李四"></property>
+
+    </bean>
 
 </beans>
