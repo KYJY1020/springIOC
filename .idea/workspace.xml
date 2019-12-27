@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba87244f-6791-4a12-bc1f-d60f3de46110" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -166,8 +165,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1684" />
-    <option name="y" value="42" />
+    <option name="x" value="1612" />
+    <option name="y" value="6" />
     <option name="width" value="1112" />
     <option name="height" value="1664" />
   </component>
@@ -415,7 +414,7 @@
       <workItem from="1577092464686" duration="3552000" />
       <workItem from="1577341487558" duration="12392000" />
       <workItem from="1577361469986" duration="3653000" />
-      <workItem from="1577422128944" duration="647000" />
+      <workItem from="1577422128944" duration="1446000" />
     </task>
     <servers />
   </component>
@@ -431,7 +430,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32467000" />
+    <option name="totallyTimeSpent" value="33266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,7 +442,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="842" y="21" width="556" height="832" extended-state="0" />
+    <frame x="806" y="3" width="556" height="832" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985755" visible="true" weight="0.437751" />
       <window_info id="Structure" order="1" sideWeight="0.5014245" side_tool="true" weight="0.2612403" />
