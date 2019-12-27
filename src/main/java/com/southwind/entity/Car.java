@@ -10,11 +10,24 @@ public class Car {
 
     }
 
+    public Car(Integer id, String brand) {
+        this.id = id;
+        this.brand = brand;
+    }
+
     public void setId(Integer id) {
         this.id = id;
     }
 
     public void setBrand(String brand) {
         this.brand = brand;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "id=" + id +
+                ", brand='" + brand + '\'' +
+                '}';
     }
 }
