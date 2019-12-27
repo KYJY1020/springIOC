@@ -4,6 +4,15 @@ public class User {
     private Integer id;
     private String name;
     private Integer age;
+    private Car car;
+
+    public Car getCar() {
+        return car;
+    }
+
+    public void setCar(Car car) {
+        this.car = car;
+    }
 
     public Integer getId() {
         return id;
@@ -35,6 +44,13 @@ public class User {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
+                ", car=" + car +
                 '}';
+    }
+
+
+
+    public User(){
+        System.out.println("创建了user对象");
     }
 }

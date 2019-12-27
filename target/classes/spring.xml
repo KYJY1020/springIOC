@@ -41,16 +41,24 @@
 <!--        <constructor-arg index="1" value="王五"></constructor-arg>-->
 <!--        <constructor-arg index="2" value="20"></constructor-arg>-->
 <!--    </bean>-->
+
+    <bean id="car" class="com.southwind.entity.Car" depends-on="user">
+
+    </bean>
 <bean id="user" class="com.southwind.entity.User">
     <property name="id" value="1"></property>
     <property name="name" value="张三"></property>
   <property name="age" value="22"></property>
 
 </bean>
-    <bean id="user2" class="com.southwind.entity.User"
-          parent="user">
-        <property name="name" value="李四"></property>
+<!--    <bean id="user2" class="com.southwind.entity.User"-->
+<!--          parent="user">-->
+<!--        <property name="name" value="李四"></property>-->
 
-    </bean>
+<!--    </bean>-->
+<!--    <bean id="student" class="com.southwind.entity.Student" parent="user">-->
+
+<!--    </bean>-->
+
 
 </beans>
